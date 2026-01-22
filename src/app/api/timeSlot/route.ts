@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('http://13.61.185.237:8080/time', {
+    const res = await fetch('http://13.60.92.100:8080/time', {
       cache: 'no-store',
     });
 
